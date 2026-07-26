@@ -19,6 +19,28 @@
   --max:1140px;
 }
 
+/* self-hosted fonts (previously loaded from Google Fonts) */
+@font-face{
+  font-family:"Alegreya";font-style:normal;font-weight:400 700;font-display:swap;
+  src:url("../fonts/alegreya-regular.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Alegreya";font-style:italic;font-weight:400 500;font-display:swap;
+  src:url("../fonts/alegreya-italic.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Alegreya Sans";font-style:normal;font-weight:400;font-display:swap;
+  src:url("../fonts/alegreya-sans-regular.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Alegreya Sans";font-style:normal;font-weight:700;font-display:swap;
+  src:url("../fonts/alegreya-sans-bold.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Alegreya Sans";font-style:italic;font-weight:400;font-display:swap;
+  src:url("../fonts/alegreya-sans-italic.woff2") format("woff2");
+}
+
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){
