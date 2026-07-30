@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Vercel CLI (lokale project-koppeling, niet gedeeld)
+.vercel
+
+# Node (voor het geval er ooit tooling bijkomt)
+node_modules
+
+# Env-bestanden horen nooit in git
+.env
+.env.*
+
+# Editor
+.vscode/
